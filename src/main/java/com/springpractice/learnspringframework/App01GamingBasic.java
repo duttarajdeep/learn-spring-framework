@@ -1,8 +1,8 @@
 package com.springpractice.learnspringframework;
 
-import game.GameRunner;
-import game.MarioGame;
-import game.SuperContra;
+import com.springpractice.learnspringframework.game.GameRunner;
+import com.springpractice.learnspringframework.game.MarioGame;
+import com.springpractice.learnspringframework.game.SuperContra;
 
 public class App01GamingBasic {
 

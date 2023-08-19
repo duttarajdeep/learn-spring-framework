@@ -1,5 +1,10 @@
-package game;
+package com.springpractice.learnspringframework.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+@Qualifier("SuperContra")
 public class SuperContra implements Game{
     @Override
     public void left() {

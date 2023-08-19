@@ -1,13 +1,11 @@
-package com.springpractice.learnspringframework;
+package com.springpractice.learnspringframework.game;
 
-import game.Game;
-import game.GameRunner;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("game")
+@ComponentScan("com/springpractice/learnspringframework/game")
 public class GamingAppLauncher {
     public static void main(String[] args) {
 

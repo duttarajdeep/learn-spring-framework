@@ -1,4 +1,4 @@
-package game;
+package com.springpractice.learnspringframework.game;
 
 public interface Game {
     public void left();
